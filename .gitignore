@@ -1,0 +1,20 @@
+# Secrets — never commit
+config/.env
+
+# Real operational contact data (contains real emails) — see data/LCON.sample.xlsx instead
+data/LCON.xlsx
+
+# Byte-compiled Python
+__pycache__/
+*.pyc
+
+# Logs (contain operational data, not source)
+logs/*.txt
+
+# Virtual environment
+venv/
+.venv/
+
+# Editor/OS cruft
+.vscode/
+.DS_Store
